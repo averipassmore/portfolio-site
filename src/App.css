@@ -37,27 +37,44 @@ body {
   }
 }
 
-.Nav-button {
+.Dropdown {
+  position: fixed;
+  overflow-x: hidden;
+}
+
+.Dropdown-button {
   width: 4vmin;
   height: 6vmin;
   position: fixed;
-  right: 2vmin;
+  right: 5.5vmin;
   top: 2vmin;
   transition: transform 1s ease-in-out;
-  /* overflow: hidden; */
 }
 
-.Nav-button:hover {
+.Dropdown-button:hover {
   transform: rotate(180deg);
 }
 
 .Dropdown-content {
-  /* display: none; */
-
+  display: block;
+  color: white;
+  right: -11vmin;
+  position: fixed;
+  top: 8vmin;
+  text-align: center;
+  font-family: tahoma;
+  font-weight: bold;
+  transition: 1s ease-in-out;
 }
 
-.Nav-button:hover .Dropdown-content {
+.Dropdown-content p {
+  border-bottom: .3vmin white solid;
+  padding-bottom: 1vmin;
+}
+
+.Dropdown:hover .Dropdown-content {
   display: block;
+  right: 2.5vmin;
 }
 
 
