@@ -36,6 +36,7 @@ html {
   background-repeat: repeat;
   overflow-y: scroll;
   display: flex;
+  z-index: -1;
 }
 
 body {
@@ -97,13 +98,15 @@ body {
 /* secret styling */
 
 .Secret-wrapper {
-  font-size: 2vmin;
+  font-size: 1.2vmin;
   position: fixed;
   left: 2vmin;
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: column;
+  row-gap: -10px;
+  top: 1vmin;
 }
 
 #hidden {
@@ -111,7 +114,7 @@ body {
   max-width: 0%;
   white-space: nowrap;
   overflow: hidden;
-  transition: max-width 1s linear;
+  transition: max-width 1s;
 }
 
 .Secret-wrapper:hover #hidden {
@@ -164,5 +167,10 @@ body {
   opacity: 1;
 }
 
+
+/* Top title styling */
+.Top-title {
+  text-align: center;
+}
 
 
