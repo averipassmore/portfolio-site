@@ -1,6 +1,20 @@
-/* * {
-  border: red solid 1px;
-} */
+* {
+  /* border: red solid 1px; */
+  font-family: tahoma;
+  color: white;
+  font-weight: bolder;
+}
+
+
+/* background Styling */
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
 
 html { 
   background: url(./images/spaceBackground.jpg) repeat-y center top fixed; 
@@ -37,6 +51,9 @@ body {
   }
 }
 
+
+/* Nav menu styling */
+
 .Dropdown {
   position: fixed;
   overflow-x: hidden;
@@ -58,11 +75,10 @@ body {
 .Dropdown-content {
   display: block;
   color: white;
-  right: -11vmin;
+  right: -20vmin;
   position: fixed;
   top: 8vmin;
   text-align: center;
-  font-family: tahoma;
   font-weight: bold;
   transition: 1s ease-in-out;
 }
@@ -76,5 +92,77 @@ body {
   display: block;
   right: 2.5vmin;
 }
+
+
+/* secret styling */
+
+.Secret-wrapper {
+  font-size: 2vmin;
+  position: fixed;
+  left: 2vmin;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#hidden {
+  width: auto;
+  max-width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: max-width 1s linear;
+}
+
+.Secret-wrapper:hover #hidden {
+  max-width: 100%;
+}
+
+.Secret-wrapper:hover .Warp {
+  display: block;
+  animation: fadeIn ease 2s;
+}
+
+/* .Secret-wrapper:hover::after > .Warp {
+  display: block;
+  animation: fadeOut ease 2s;
+} */
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+/* @keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+} */
+
+/* @-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+} */
+
+
+.Warp-cropper {
+  width: 11vmin;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.Warp {
+  display: none;
+  margin: 0 auto;
+  margin-left: -40%;
+  width: 20vmin;
+  opacity: 1;
+}
+
 
 
