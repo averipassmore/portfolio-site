@@ -361,8 +361,8 @@ body {
 }
 
 .Projects-content {
-  position: absolute;
-  top: 10vmin;
+  position: relative;
+  top: 0vmin;
   width: 100%;
   /* border: red solid 1px; */
   display: flex;
@@ -418,6 +418,7 @@ body {
   height: 50%;
   width: 50%;
   position: relative;
+  border-radius: 1vmin;
   /* border: solid purple 1px; */
   /* border: 1px solid red; */
 }
@@ -449,4 +450,7 @@ body {
   border: .4vmin white solid;
   backdrop-filter: blur(1px);
 }
+
+
+/* Contact styling */
 
