@@ -100,7 +100,7 @@ body {
 /* secret styling */
 
 .Secret-wrapper {
-  font-size: 1.2vmin;
+  font-size: 1.4vmin;
   position: fixed;
   left: 2vmin;
   text-align: center;
@@ -165,9 +165,10 @@ body {
 }
 
 .Top-title p {
-  font-size: 1vmin;
+  font-size: 1.4vmin;
   position: relative;
   top: -2vmin;
+  font-weight: bold;
 }
 
 

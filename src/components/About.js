@@ -12,9 +12,9 @@ const About = () => {
           developer, I find myself lucky to be able to fulfill these needs through my work. My passion for 
           development is rooted in my highest values; naturally it was a no brainer for me to become who I 
           am today. Whether it's a passion project, freelance work, or just making something fun; I'm grateful
-          to be a part of such a fantastic community and jump at any opportunity to make contributions. The time
+          to be a part of such a fantastic community and I jump at any opportunity to make contributions. The time
           I spend away from my profession is reserved for concerts, travel, books, movies, competitive sports, 
-          gaming, and above all the everyone who has supported me through this journey.
+          gaming, and above all everyone who has supported me through this journey.
         </p>
       </div>
       <div className="About-icons"> 
