@@ -503,6 +503,8 @@ body {
   top: 2.5vmin;
 }
 
+.Contact-form textarea:focus {outline: none}
+
 .Contact-form label {
   position: relative;
   margin-top: .5vmin;
@@ -530,6 +532,8 @@ body {
   border-right: 0;
   border-top: 0;
 }
+
+.Contact-form input[type=text]:focus {outline: none}
 
 .Contact-form input[type=submit] {
   position: relative;
