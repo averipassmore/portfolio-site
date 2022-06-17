@@ -188,6 +188,7 @@ body {
   text-align: center;
   top: 25vmin;
   font-size: 2vmin;
+  backdrop-filter: blur(1px);
 }
 
 .Headshot img {
