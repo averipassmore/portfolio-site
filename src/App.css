@@ -459,9 +459,11 @@ body {
   top: 20vmin;
   align-items: center;
   width: 100%;
+  max-width: 100%;
   /* border: solid purple 1px; */
   flex-direction: column;
   height: 58vmin;
+  /* border: 1px solid red; */
 }
 
 .Contact h1{
@@ -526,11 +528,11 @@ body {
   top: 1vmin;
   border-left: 0;
   border-right: 0;
-  border-top: 0;;
+  border-top: 0;
 }
 
 .Contact-form input[type=submit] {
-  /* position: relative; */
+  position: relative;
   width: 20vmin;
   top: 5vmin;
   border-radius: 1vmin;
