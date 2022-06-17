@@ -2,6 +2,7 @@ import React from "react";
 import anpLogo from "../images/anpLogo.png"
 import warp from '../images/warp.gif'
 import { Link } from "react-router-dom";
+import headshot from '../images/headshot.png'
 
 const LandingPage = () => {
   return (
@@ -24,8 +25,14 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="Top-title">
-        <h1>welcome to my safe space</h1>
+        <h1>welcome to my space</h1>
+        <p>haha get it?</p>
       </div>
+      <div className="Headshot">
+        <img src={headshot} alt=""></img>
+        <div><h1>Averi Passmore</h1></div>
+      </div>
+      <div className="Title"><h1>Fullstack Software Developer</h1></div>
     </div>
   )
 }
