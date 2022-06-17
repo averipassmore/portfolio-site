@@ -13,8 +13,8 @@ const Projects = () => {
             <img src={freeswan} alt="freeswan"></img>
             <div className="Project-contents">
               <h1>FreeSwan</h1>
-              <p>Freeswan is a Spotify integrated music reccomendation web app. After asking for a desired genre
-                and mood, Freeswan custom curates a playlist based off of your selections and your existing music 
+              <p>A Spotify integrated music reccomendation web app. Simply input a genre
+                and mood, and Freeswan will custom curate a playlist based your existing music 
                 taste. It is currently pending Spotify approval, in the meantime use the login provided to access 
                 the website as a free Spotify user.
               </p>
