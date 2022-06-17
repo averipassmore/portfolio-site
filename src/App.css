@@ -137,8 +137,8 @@ body {
 } */
 
 @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
 
 .Warp-cropper {
@@ -282,14 +282,12 @@ body {
   align-items: center;
   width: 65vmin;
   height: 65vmin;
-  /* border: red solid 1px; */
   word-spacing: 1vmin;
 }
 
 .About-text p{
   padding: 26vmin 0 0 0;
   width: 80vmin;
-  /* border: red solid 1px;  */
 }
 
 #Github {
@@ -299,3 +297,102 @@ body {
 #Express {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(297deg) brightness(105%) contrast(103%);
 }
+
+
+/* Proejcts component styling */
+.Projects {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  top: 200vmin;
+  width: 100%;
+  /* border: blue solid 1px;  */
+}
+
+.Projects-title {
+  position: absolute;
+  width: 100%;
+}
+
+.Projects-content {
+  position: absolute;
+  top: 10vmin;
+  width: 100%;
+  /* border: red solid 1px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
+  /* height: 200%; */
+}
+
+.Project-content {
+  /* height: 80vmin; */
+  /* border: solid purple 1px; */
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5vmin;
+}
+
+.Project-title {
+  
+}
+
+.Project-content h1{
+  font-size: 3vmin;
+  width: 25vmin;
+  position: relative;
+  border-bottom: .5vmin white solid;
+  left: 24vmin;
+  border-bottom-left-radius: .7vmin;
+  border-bottom-right-radius: .7vmin;
+}
+
+.Project-content p{
+  font-size: 2vmin;
+  font-weight: bold;
+  align-items: center;
+  /* width: 100%; */
+  word-spacing: 1vmin;
+  padding: 1vmin 3vmin 1vmin;
+  /* border: 1px solid red; */
+  backdrop-filter: blur(1px);
+}
+
+.Project-content img {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.Project-content button {
+  background-color: transparent;
+  width: 20vmin;
+  height: 8vmin;
+  border: .2vmin white solid;
+  border-radius: 2vmin;
+  transition: all .75s ease-in-out;
+  bottom: 0vmin;
+  position: relative;
+  font-size: 2vmin;
+  font-weight: bold;
+}
+
+#Bc-button {
+  bottom: -3vmin;
+}
+
+#Freeswan-login {
+  padding-top: 0;
+}
+
+.Project-content button:hover {
+  transform: scale(1.2);
+  border: .4vmin white solid;
+  backdrop-filter: blur(1px);
+}
+
