@@ -11,12 +11,12 @@ const Contact = () => {
     let isComplete = true;
     for (let i = 0; i < form.current.length - 1; i++) {
       if (form.current[i].value === "") {
+        isComplete=false;
         document.getElementsByName(`${form.current[i].name}`)[0].style.border = "1px red solid";
         if (document.getElementsByName(`${form.current[i].name}`)[0].name === 'message') break;
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderLeft = "0";
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderRight = "0";
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderTop = "0";
-        isComplete=false;
       } else {
         document.getElementsByName(`${form.current[i].name}`)[0].style.border = "1px white solid";
         if (document.getElementsByName(`${form.current[i].name}`)[0].name === 'message') break;
