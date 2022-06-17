@@ -8,6 +8,7 @@ const Contact = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
+    console.log(process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY)
     let isComplete = true;
     for (let i = 0; i < form.current.length - 1; i++) {
       if (form.current[i].value === "") {
@@ -38,7 +39,7 @@ const Contact = () => {
     if(!window.confirm("Please confirm request")) return;
 
     // works just dont want to use all of the emails
-    emailjs.sendForm('service_zid19jo', 'template_54s1gsj', form.current, 'Um-6jVm3sb72fybJ3')
+    emailjs.sendForm( process.env.REACT_APP_EMAIL_JS_SERVICE_KEY, process.env.REACT_APP_EMAIL_JS_TEMPLATE_KEY, form.current, process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
           const name = document.getElementById('name');
