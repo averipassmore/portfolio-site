@@ -1,8 +1,9 @@
 import React from "react";
-import anpLogo from "../images/anpLogo.png"
-import warp from '../images/warp.gif'
+import anpLogo from "../images/anpLogo.png";
+import warp from '../images/warp.gif';
 import { Link } from "react-router-dom";
-import headshot from '../images/headshot.png'
+import headshot from '../images/headshot.png';
+import About from './About';
 
 const LandingPage = () => {
   return (
@@ -11,7 +12,7 @@ const LandingPage = () => {
       <div className="Dropdown">
           <img src={anpLogo} alt="" className="Dropdown-button"></img>
           <div className="Dropdown-content">
-            <Link to="About" style={{"text-decoration": "none"}}><p>About Me</p></Link>
+            <Link to={<About/>} style={{"text-decoration": "none"}}><p>About Me</p></Link>
             <Link to="Projects" style={{"text-decoration": "none"}}><p>Projects</p></Link>
             <Link to="Contact" style={{"text-decoration": "none"}}><p>Contact</p></Link>
           </div>
@@ -33,6 +34,7 @@ const LandingPage = () => {
         <div><h1>Averi Passmore</h1></div>
       </div>
       <div className="Title"><h1>Fullstack Software Developer</h1></div>
+      <About />
     </div>
   )
 }
