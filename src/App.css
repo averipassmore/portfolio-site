@@ -409,7 +409,7 @@ body {
   align-items: center;
   /* width: 100%; */
   word-spacing: 1vmin;
-  padding: 1vmin 3vmin 1vmin;
+  padding: 0vmin 3vmin 1vmin;
   /* border: 1px solid red; */
   /* backdrop-filter: blur(1px); */
 }
@@ -429,18 +429,19 @@ body {
   border: .2vmin white solid;
   border-radius: 2vmin;
   transition: all .75s ease-in-out;
-  bottom: 0vmin;
+  bottom: 2vmin;
   position: relative;
   font-size: 2vmin;
   font-weight: bold;
 }
 
 #Bc-button {
-  bottom: -3vmin;
+  bottom: -1vmin;
 }
 
 #Freeswan-login {
-  padding-top: 0;
+  position: relative;
+  bottom: 3vmin;
 }
 
 .Project-content button:hover {
