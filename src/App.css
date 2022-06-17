@@ -217,7 +217,6 @@ body {
 /* about styling */
 .About {
   position: relative;
-  /* top: 100vmin; */
   width: 100%;
   text-align: center;
   flex-direction: row;
@@ -226,6 +225,7 @@ body {
   height: 100%;
   align-items: center;
   flex-wrap: wrap;
+  top: 6vmin;
   /* border: blue solid 1px; */
 }
 
@@ -274,7 +274,7 @@ body {
 }
 
 .About-left {
-  /* top: 2vmin; */
+  top: 2vmin;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -345,18 +345,19 @@ body {
 
 /* Proejcts component styling */
 .Projects {
-  position: absolute;
+  position: relative;
   text-align: center;
   display: flex;
   flex-direction: column;
-  top: 200vmin;
+  top: 20vmin;
   width: 100%;
   /* border: blue solid 1px;  */
 }
 
 .Projects-title {
-  position: absolute;
+  position: relative;
   width: 100%;
+  font-size: 4.05vmin;
 }
 
 .Projects-content {
@@ -379,6 +380,17 @@ body {
   display: flex;
   flex-direction: row;
   padding-bottom: 5vmin;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.Project-contents {
+  text-align: center;
+  /* border: solid red 1px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Project-content h1{
@@ -386,7 +398,7 @@ body {
   width: 25vmin;
   position: relative;
   border-bottom: .5vmin white solid;
-  left: 24vmin;
+  /* left: 24vmin; */
   border-bottom-left-radius: .7vmin;
   border-bottom-right-radius: .7vmin;
 }
@@ -399,13 +411,14 @@ body {
   word-spacing: 1vmin;
   padding: 1vmin 3vmin 1vmin;
   /* border: 1px solid red; */
-  backdrop-filter: blur(1px);
+  /* backdrop-filter: blur(1px); */
 }
 
 .Project-content img {
   height: 50%;
   width: 50%;
   position: relative;
+  /* border: solid purple 1px; */
   /* border: 1px solid red; */
 }
 

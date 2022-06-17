@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="Projects-content">
           <div className="Project-content">
             <img src={freeswan} alt="freeswan"></img>
-            <div>
+            <div className="Project-contents">
               <h1>FreeSwan</h1>
               <p>Freeswan is a Spotify integrated music reccomendation web app. After asking for a desired genre
                 and mood, Freeswan custom curates a playlist based off of your selections and your existing music 
@@ -22,7 +22,7 @@ const Projects = () => {
             </div> 
           </div>
           <div className="Project-content">
-            <div>
+            <div className="Project-contents">
               <h1>BC Lock</h1>
               <p>A professional website for a locksmith in Southern Nevada. The highlight of this project for me
                 was imlpementing an email service to inform the owner and the customer of online quote submissions. 
