@@ -493,15 +493,22 @@ body {
   width: 88.5vmin;
   padding: .8vmin;
   font-size: 2vmin;
-  -ms-box-sizing:content-box;
-  -moz-box-sizing:content-box;
-  -webkit-box-sizing:content-box; 
-  box-sizing:content-box;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; 
+  box-sizing: content-box;
   height: 20vmin;
   background-color: transparent;
-  border: white 1px solid;
+  border: white 0px solid;
   border-radius: .7vmin;
   top: 2.5vmin;
+  backdrop-filter: blur(1px);
+  background-attachment: local;
+  background-image:
+      linear-gradient(to right, transparent 10px, transparent 10px),
+      linear-gradient(to left, transparent 10px, transparent 10px),
+      repeating-linear-gradient(transparent, transparent 30px, white 30px, white 31px, white 31px);
+  line-height: 27px;
 }
 
 .Contact-form textarea:focus {outline: none}

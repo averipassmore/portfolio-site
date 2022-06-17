@@ -13,13 +13,16 @@ const Contact = () => {
       if (form.current[i].value === "") {
         isComplete=false;
         document.getElementsByName(`${form.current[i].name}`)[0].style.border = "1px red solid";
-        if (document.getElementsByName(`${form.current[i].name}`)[0].name === 'message') break;
+        if (document.getElementsByName(`${form.current[i].name}`)[0].name === 'message') {
+          document.getElementsByName(`${form.current[i].name}`)[0].style.backgroundImage = ' linear-gradient(to right, transparent 10px, transparent 10px), linear-gradient(to left, transparent 10px, transparent 10px), repeating-linear-gradient(transparent, transparent 30px, red 30px, red 31px, red 31px)';
+          document.getElementsByName(`${form.current[i].name}`)[0].style.border = "0px red solid";
+        };
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderLeft = "0";
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderRight = "0";
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderTop = "0";
       } else {
         document.getElementsByName(`${form.current[i].name}`)[0].style.border = "1px white solid";
-        if (document.getElementsByName(`${form.current[i].name}`)[0].name === 'message') break;
+        if (document.getElementsByName(`${form.current[i].name}`)[0].name === 'message') document.getElementsByName(`${form.current[i].name}`)[0].style.border = "0px white solid";;
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderLeft = "0";
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderRight = "0";
         document.getElementsByName(`${form.current[i].name}`)[0].style.borderTop = "0";
@@ -44,7 +47,7 @@ const Contact = () => {
     //       alert("Your request failed... Please try again", error)
     //       return;
     //   });
-    // navigate('/');
+    window.location.reload();
   };
 
   return (
@@ -57,7 +60,8 @@ const Contact = () => {
           <label></label>
           <input type="text" name="user_email" placeholder="example@email.com"/>
           <label htmlFor="typeOfService"></label>
-          <textarea name="message" placeholder="Send me a message :)"></textarea>
+          <textarea name="message" placeholder="Business inquiry? Want to work together? Leave some details and
+          I will get back to you as soon as possible!"></textarea>
           <input type="submit" value="Send" />
           </form>
       </div>
