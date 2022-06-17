@@ -15,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "REACT_APP_EMAIL_JS_PUBLIC_KEY=Um-6jVm3sb72fybJ3 REACT_APP_EMAIL_JS_TEMPLATE_KEY=template_54s1gsj REACT_APP_EMAIL_JS_SERVICE_KEY=service_zid19jo react-scripts start",
-    "build": "REACT_APP_EMAIL_JS_PUBLIC_KEY=Um-6jVm3sb72fybJ3 REACT_APP_EMAIL_JS_TEMPLATE_KEY=template_54s1gsj REACT_APP_EMAIL_JS_SERVICE_KEY=service_zid19jo react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
