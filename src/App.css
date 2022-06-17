@@ -206,23 +206,35 @@ body {
   font-size: 2vmin;
 }
 
+.Wrapper-div {
+  height: 80vmin;
+  width: 100vmin;
+  /* border: blue solid 1px; */
+  /* position: absolute; */
+}
+
 
 /* about styling */
 .About {
-  position: absolute;
-  top: 100vmin;
+  position: relative;
+  /* top: 100vmin; */
   width: 100%;
   text-align: center;
   flex-direction: row;
   display: flex;
   justify-content: space-evenly;
-  height: 100vmin;
+  height: 100%;
   align-items: center;
+  flex-wrap: wrap;
+  /* border: blue solid 1px; */
 }
+
+/* @media (max-width: ) */
 
 .About-icons {
   /* border: red solid 1px; */
-  width: 65vmin;
+  position: relative;
+  width: 50vmin;
   height: 65vmin;
   justify-content: space-evenly;
   flex-direction: column;
@@ -233,7 +245,12 @@ body {
 .About-icons-row {
   display: inline-block;
   justify-content: center;
-  width: inherit;
+  width: 60vmin;
+  /* border: blue solid 1px; */
+  position: relative;
+  padding-right: 12vmin;
+  padding-left: 12vmin;
+  /* right: -5vmin; */
 }
 
 .About-icons img {
@@ -256,16 +273,42 @@ body {
   }
 }
 
+.About-left {
+  /* top: 2vmin; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: blue solid 1px; */
+  width: 65vmin;
+  height: fit-content;
+  /* border: red solid 1px; */
+}
+
+.About-right {
+  width: 70vmin;
+  position: relative;
+  display: flex;
+  height: fit-content;
+  /* border: red solid 1px; */
+  align-items: center;
+  justify-content: center;
+}
+
 .About-logo {
-  position: absolute;
-  left: 53vmin;
-  top: 24vmin;
+  position: relative;
+  top: -2vmin;
+  /* border: blue solid 1px; */
+  /* left: 53vmin; */
+  /* top: 0vmin; */
 }
 
 .About-logo img {
   animation: rotation 60s infinite linear;
   height: 13vmin;
   width: 8vmin;
+  /* border: blue solid 1px; */
 }
 @keyframes rotation {
   from{
@@ -281,13 +324,14 @@ body {
   font-weight: bold;
   align-items: center;
   width: 65vmin;
-  height: 65vmin;
+  /* height: 65vmin; */
   word-spacing: 1vmin;
+  /* border: blue solid 1px; */
 }
 
 .About-text p{
-  padding: 26vmin 0 0 0;
-  width: 80vmin;
+  /* width: 80vmin; */
+  /* border: blue solid 1px; */
 }
 
 #Github {
@@ -335,10 +379,6 @@ body {
   display: flex;
   flex-direction: row;
   padding-bottom: 5vmin;
-}
-
-.Project-title {
-  
 }
 
 .Project-content h1{
