@@ -453,4 +453,107 @@ body {
 
 
 /* Contact styling */
+.Contact {
+  position: relative;
+  display: flex;
+  top: 20vmin;
+  align-items: center;
+  width: 100%;
+  /* border: solid purple 1px; */
+  flex-direction: column;
+  height: 58vmin;
+}
+
+.Contact h1{
+  font-size: 3.5vmin;
+}
+
+.Contact-form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: transparent;
+  align-items: center;
+  font-weight: bold;
+  width: 60%;
+  height: 42vmin;
+  border-radius: .7vmin;
+  /* border: .5vmin white solid; */
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  max-width: 100%;
+}
+
+.Contact-form textarea {
+  position: relative;
+  width: 88.5vmin;
+  padding: .8vmin;
+  font-size: 2vmin;
+  -ms-box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box; 
+  box-sizing:content-box;
+  height: 20vmin;
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: .7vmin;
+  top: 2.5vmin;
+}
+
+.Contact-form label {
+  position: relative;
+  margin-top: .5vmin;
+  margin-bottom: .5vmin;
+  font-size: 2vmin;
+  float: left;
+  width: 90vmin;
+  color: white;
+}
+
+.Contact-form input[type=text] {
+  position: relative;
+  width: 88vmin;
+  padding: .8vmin;
+  font-size: 2vmin;
+  background-color: transparent;
+  border: white 1px solid;
+  -ms-box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box; 
+  box-sizing:content-box;
+  /* border-radius: .7vmin; */
+  top: 1vmin;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;;
+}
+
+.Contact-form input[type=submit] {
+  /* position: relative; */
+  width: 20vmin;
+  top: 5vmin;
+  border-radius: 1vmin;
+  cursor: pointer;
+  font-size: 2vmin;
+  font-weight: bold;
+  background-color: transparent;
+  height: 8vmin;
+  border: .2vmin white solid;
+  border-radius: 2vmin;
+  transition: all .75s ease-in-out;
+}
+
+.Contact-form input[type=submit]:hover {
+  transform: scale(1.2);
+  border: .4vmin white solid;
+  backdrop-filter: blur(1px);
+}
+
+
+::placeholder {
+  color: white;
+  font-family: tahoma;
+}
+
 

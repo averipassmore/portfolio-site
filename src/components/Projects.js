@@ -1,6 +1,7 @@
 import React from "react";
 import freeswan from '../images/freeswan.jpg';
 import bclock from '../images/bclock.jpg';
+import Contact from './Contact'
 
 const Projects = () => {
   return (
@@ -33,6 +34,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <Contact />
     </div>
   )
 }
