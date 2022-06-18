@@ -22,7 +22,7 @@ const LandingPage = () => {
           <p>psst</p>
           <p id="hidden">looking for some fun?</p>
           <div className="Warp-cropper">
-            <Link to="/secret"><img src={warp} class="Warp" alt=""></img></Link>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={warp} class="Warp" alt=""></img></a>
           </div>
         </div>
         <div className="Top-title">
