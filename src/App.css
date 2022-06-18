@@ -502,7 +502,7 @@ body {
   border: white 0px solid;
   border-radius: .7vmin;
   top: 2.5vmin;
-  backdrop-filter: blur(1px);
+  /* backdrop-filter: blur(1px); */
   background-attachment: local;
   background-image:
       linear-gradient(to right, transparent 10px, transparent 10px),
@@ -584,3 +584,21 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+
+/* footer styling */
+.Footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 10vmin;
+  width: 100%;
+  top: 22vmin;
+  border-top: .5vmin white solid;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .Footer a{
+  position: relative;
+  top: 1vmin;
+} */

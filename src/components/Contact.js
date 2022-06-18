@@ -1,6 +1,7 @@
 import React, {useRef} from "react";
 import { useNavigate } from "react-router-dom";
 import emailjs from 'emailjs-com';
+import Footer from './Footer'
 
 const Contact = () => {
   const form = useRef();
@@ -72,6 +73,7 @@ const Contact = () => {
           <input type="submit" value="Send" />
           </form>
       </div>
+      <Footer />
     </div>
   )
 }
