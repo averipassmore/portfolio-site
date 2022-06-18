@@ -12,9 +12,9 @@ const LandingPage = () => {
         <div className="Dropdown">
             <img src={anpLogo} alt="" className="Dropdown-button"></img>
             <div className="Dropdown-content">
-              <Link to={<About/>} style={{"text-decoration": "none"}}><p>About Me</p></Link>
-              <Link to="Projects" style={{"text-decoration": "none"}}><p>Projects</p></Link>
-              <Link to="Contact" style={{"text-decoration": "none"}}><p>Contact</p></Link>
+              <Link to="" style={{"text-decoration": "none"}}><p>About Me</p></Link>
+              <Link to="" style={{"text-decoration": "none"}}><p>Projects</p></Link>
+              <Link to="" style={{"text-decoration": "none"}}><p>Contact</p></Link>
             </div>
           </div>
 
