@@ -16,8 +16,7 @@ const About = () => {
               development is rooted in my highest values; naturally it was a no brainer for me to become who I 
               am today. Whether it's a passion project, freelance work, or just making something fun; I'm grateful
               to be a part of such a fantastic community and I jump at any opportunity to make contributions. The time
-              I spend away from my profession is reserved for concerts, travel, books, movies, competitive sports, 
-              gaming, and above all everyone who has supported me through this journey.
+              I spend away from my profession is reserved for concerts, travel, books, movies, and above all my dog.
             </p>
           </div>
         </div>
