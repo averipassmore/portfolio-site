@@ -374,6 +374,8 @@ body {
   /* height: 200%; */
 }
 
+.Projects-image-wrapper {}
+
 .Project-content {
   /* height: 80vmin; */
   /* border: solid purple 1px; */
@@ -384,6 +386,9 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  /* flex: 1 1 0; */
+  /* display: -webkit-flex;
+  display: -moz-flex; */
 }
 
 .Project-contents {
@@ -420,8 +425,21 @@ body {
   width: 50%;
   position: relative;
   border-radius: 1vmin;
+  /* flex-basis: 200%; */
   /* border: solid purple 1px; */
   /* border: 1px solid red; */
+}
+
+@-moz-document url-prefix() {
+  .Project-content img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 1vmin;
+    flex-basis: 200%;
+    /* border: solid purple 1px; */
+    /* border: 1px solid blue; */
+  }
 }
 
 .Project-content button {

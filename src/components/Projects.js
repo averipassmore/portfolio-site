@@ -10,7 +10,9 @@ const Projects = () => {
         <h1 className="Projects-title">Projects</h1>
         <div className="Projects-content">
           <div className="Project-content">
-            <img src={freeswan} alt="freeswan"></img>
+            {/* <div className="Projects-image-wrapper"> */}
+              <img src={freeswan} alt="freeswan"></img>
+            {/* </div> */}
             <div className="Project-contents">
               <h1>FreeSwan</h1>
               <p>A Spotify integrated music reccomendation web app. Simply input a genre
@@ -30,7 +32,9 @@ const Projects = () => {
               </p>
               <button onClick="window.location.href='https://www.bouldercitylockandkey.com/'" id="Bc-button">Check it out!</button>
             </div> 
-            <img src={bclock} alt="bclock"></img>
+            {/* <div className="Projects-image-wrapper"> */}
+              <img src={bclock} alt="freeswan"></img>
+            {/* </div> */}
           </div>
         </div>
       </div>
