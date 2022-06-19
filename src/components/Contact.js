@@ -68,8 +68,8 @@ const Contact = () => {
           <label></label>
           <input type="text" name="user_email" placeholder="example@email.com" id="email"/>
           <label htmlFor="typeOfService"></label>
-          <textarea name="message" placeholder="Business inquiry? Want to work together? Leave some details and
-          I will get back to you as soon as possible!" id="message"></textarea>
+          <textarea name="message" placeholder="Business inquiry? Want to work together? Find a bug? Leave some details and
+          I will get back to you as soon as possible! Thanks!" id="message"></textarea>
           <input type="submit" value="Send" />
           </form>
       </div>
