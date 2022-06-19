@@ -21,7 +21,7 @@ const Projects = () => {
                 the website as a free Spotify user.
               </p>
               <p id="Freeswan-login">email: testfreeswan@gmail.com password: testfreeswan</p>
-              <button onClick="window.location.href='https://freeswan.herokuapp.com/'">Check it out!</button>
+              <a href="https://freeswan.herokuapp.com/"><button>Check it out!</button></a>
             </div> 
           </div>
           <div className="Project-content">
@@ -30,7 +30,7 @@ const Projects = () => {
               <p>A professional website for a locksmith in Southern Nevada. The highlight of this project for me
                 was imlpementing an email service to inform the owner and the customer of online quote submissions. 
               </p>
-              <button onClick="window.location.href='https://www.bouldercitylockandkey.com/'" id="Bc-button">Check it out!</button>
+              <a href="https://www.bouldercitylockandkey.com/"><button id="Bc-button">Check it out!</button></a>
             </div> 
             {/* <div className="Projects-image-wrapper"> */}
               <img src={bclock} alt="freeswan"></img>

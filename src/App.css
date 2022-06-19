@@ -7,7 +7,6 @@
 
 
 /* background Styling */
-
 img {
   -webkit-user-drag: none;
   -khtml-user-drag: none;
@@ -98,7 +97,6 @@ body {
 
 
 /* secret styling */
-
 .Secret-wrapper {
   font-size: 1.4vmin;
   position: fixed;
