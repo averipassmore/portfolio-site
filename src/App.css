@@ -24,6 +24,7 @@ html {
   overflow-y: visible;
   animation: slide 300s linear infinite;
   overscroll-behavior: none;
+  scroll-behavior: smooth;
 }
 
 .Twinkle-wrapper {

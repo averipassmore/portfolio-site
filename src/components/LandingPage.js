@@ -1,20 +1,27 @@
 import React from "react";
 import anpLogo from "../images/anpLogo.png";
 import warp from '../images/warp.gif';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import headshot from '../images/headshot.png';
 import About from './About';
 
+
 const LandingPage = () => {
+  const handleScroll = () => {
+    let documentHeight = document.body.scrollHeight;
+    let currentScroll = window.scrollY + window.innerHeight;
+    if (currentScroll < documentHeight) window.scrollTo(0, document.body.scrollHeight);
+    else window.scrollTo(0, 0);
+  }
   return (
     <div>
         <div className="Twinkle-wrapper"></div>
         <div className="Dropdown">
-            <img src={anpLogo} alt="" className="Dropdown-button"></img>
+            <img src={anpLogo} alt="" className="Dropdown-button" onClick={handleScroll}></img>
             <div className="Dropdown-content">
-              <Link to="" style={{"text-decoration": "none"}}><p>About Me</p></Link>
+              {/* <Link to="" style={{"text-decoration": "none"}}><p>About Me</p></Link>
               <Link to="" style={{"text-decoration": "none"}}><p>Projects</p></Link>
-              <Link to="" style={{"text-decoration": "none"}}><p>Contact</p></Link>
+              <Link to="" style={{"text-decoration": "none"}}><p>Contact</p></Link> */}
             </div>
           </div>
 
