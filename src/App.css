@@ -34,9 +34,11 @@ html {
   height: 100%;
   position: fixed;
   background-repeat: repeat;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   display: flex;
   z-index: -1;
+  /* i think adding this and removing the overflow-y fixes the extra scrollbar issue */
+  overflow: hidden;
 }
 
 body {
