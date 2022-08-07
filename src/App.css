@@ -524,10 +524,8 @@ body {
   /* backdrop-filter: blur(1px); */
   background-attachment: local;
   background-image:
-      linear-gradient(to right, transparent 10px, transparent 10px),
-      linear-gradient(to left, transparent 10px, transparent 10px),
       repeating-linear-gradient(transparent, transparent 30px, white 30px, white 31px, white 31px);
-  line-height: 27px;
+  line-height: 31px;
 }
 
 .Contact-form textarea:focus {outline: none}
