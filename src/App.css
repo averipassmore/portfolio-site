@@ -256,8 +256,8 @@ body {
 }
 
 .About-icons img {
-  width: 10vmin;
-  height: 10vmin;
+  width: 9vmin;
+  height: 9vmin;
   /* border: red solid 1px; */
   margin: 2.5vmin;
   animation: pulse 6s ease infinite;
